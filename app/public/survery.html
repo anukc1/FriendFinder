@@ -245,27 +245,8 @@
     //------------------
 
     $("#submit").on("click", function () {
+        event.preventDefault();
 
-      function validateForm() {
-        var isValid = true;
-        $(".form-control").each(function () {
-          if ($(this).val() === "") {
-            isValid = false;
-            
-          }
-        });
-
-        $(".chosen-select").each(function () {
-
-          if ($(this).val() === "") {
-            isValid = false;
-          }
-        });
-        return isValid;
-
-      }
-
-      if (validateForm()) {
 
         var userData = {
           name: $('#name').val().trim(),
@@ -284,60 +265,20 @@
           ]
         };
 
+        
         var currentURL = window.location.origin;
 
-        $.post(currentURL + "/api/friends", userData, function(data){
+$post(currentURL + "/api/friends", userData, function(data){
 
-          alert("working");
+console.log(data)
+       
         })
-
+      })
         
-        // var currentURL = window.location.origin;
-
-        // $.post(currentURL + "api/friends", userData, function(data){
-
-        //   alert("working");
-        // })
-      }
-      
-    })
+     
+  
 
 
-
-
-//--------------------
-
-    // $('#submit').on('click', function (event) {
-    //   event.preventDefault();
-    //   // Gather user inputs
-    //   var userInput = {
-		// 		name: $('#userName').val().trim(),
-		// 		photo: $('#userPhoto').val().trim(),
-		// 		scores:[
-		// 			$('#question1').val().trim(),
-		// 			$('#question2').val().trim(),
-		// 			$('#question3').val().trim(),
-		// 			$('#question4').val().trim(),
-		// 			$('#question5').val().trim(),
-		// 			$('#question6').val().trim(),
-		// 			$('#question7').val().trim(),
-		// 			$('#question8').val().trim(),
-		// 			$('#question9').val().trim(),
-		// 			$('#question10').val().trim()
-		// 		]
-		// 	};
-		// 	// console.log('userInput = ' + JSON.stringify(userInput));
-		// 	// Add user inputs to friends list
-		// 	$.post('/api/friends', userInput)
-    //   		.then(function(data) {
-    //   			// console.log('response = ' + JSON.stringify(data));
-    //   			// Set the name and image values of friend match
-    //   			$('#userMatch').html(data.matchName);
-		//     	$("#userMatchImage").attr("src", data.matchImage);
-		//     	// Pop open the modal dialog
-    //   			$('#modal1').modal('open');
-    //   		});
-		// });
   </script>
 </body>
 
