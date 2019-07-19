@@ -1,7 +1,7 @@
 var friends = [
     {
         "name":"Ahmed",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"http://writingexercises.co.uk/images2/randomimage/boat.jpg",
         "scores":[
             "5",
             "1",
@@ -17,7 +17,7 @@ var friends = [
       },
       {
         "name":"Joe",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"http://writingexercises.co.uk/images2/randomimage/scarecrow.jpg",
         "scores":[
             "1",
             "3",
@@ -34,7 +34,7 @@ var friends = [
 
       {
         "name":"Eric",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"http://writingexercises.co.uk/images2/randomimage/man-on-bench.jpg",
         "scores":[
             "1",
             "1",
@@ -51,7 +51,7 @@ var friends = [
 
       {
         "name":"Molly",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"http://writingexercises.co.uk/images2/randomimage/restaurant-view.jpg",
         "scores":[
             "2",
             "4",
@@ -68,7 +68,7 @@ var friends = [
 
       {
         "name":"Holly",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"http://writingexercises.co.uk/images2/randomimage/anchors.jpg",
         "scores":[
             "2",
             "4",
@@ -85,7 +85,7 @@ var friends = [
 
       {
         "name":"Lola",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"http://writingexercises.co.uk/images2/randomimage/fruit-stall.jpg",
         "scores":[
             "5",
             "2",
@@ -101,7 +101,7 @@ var friends = [
       },
       {
         "name":"Mickey",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Mickey_Mouse.png/220px-Mickey_Mouse.png",
         "scores":[
             "5",
             "1",
@@ -117,7 +117,7 @@ var friends = [
       },
       {
         "name":"minnie",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Minnie_Mouse.png/220px-Minnie_Mouse.png",
         "scores":[
             "5",
             "2",
